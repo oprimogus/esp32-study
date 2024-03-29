@@ -1,0 +1,47 @@
+# Arquivos de configuração temporários
+sdkconfig.old
+sdkconfig.defaults
+
+# Diretório de build (onde os arquivos compilados e de projeto são gerados)
+build/
+**/build/
+
+# Pasta de cache do CMake
+.ccache/
+
+# Arquivos e diretórios de configuração do Eclipse (se estiver usando o Eclipse)
+/.settings/
+/.project
+/.cproject
+
+# Arquivos de configuração do VS Code (se estiver usando o VS Code)
+.vscode/
+
+# Pasta de dependências do projeto (muitas vezes, são baixadas automaticamente)
+components/
+
+# Diretórios que podem conter chaves privadas ou configurações específicas
+/private/
+/config/
+
+# Arquivos de backup e outros arquivos temporários que podem ser criados pelo IDE
+*~
+*.bak
+*.tmp
+*.swp
+
+# Diretórios e arquivos de log
+logs/
+*.log
+
+# Outros arquivos que podem conter informações sensíveis
+*.cert
+*.key
+*.pem
+
+# Arquivos específicos de sistema operacional
+.DS_Store # Para macOS
+Thumbs.db # Para Windows
+
+# Pasta de saída para ferramentas de análise estática
+/output/
